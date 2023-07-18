@@ -10,7 +10,7 @@ const SplashScreen = () => {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      // navigation.navigate('SwiperFile');
+      navigation.navigate('OverView');
     }, 5000);
 
     return () => clearTimeout(timeout);

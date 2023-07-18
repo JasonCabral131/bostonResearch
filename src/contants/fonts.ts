@@ -1,0 +1,26 @@
+export const font = {
+  manrope: {
+    bold: 'Manrope-Bold',
+    extraBold: 'Manrope-ExtraBold',
+    extraLight: 'Manrope-ExtraLight',
+    light: 'Manrope-Light',
+    md: 'Manrope-Medium',
+    regular: 'Manrope-Regular',
+    semiBold: 'Manrope-SemiBold',
+  },
+  playfairDisplay: {
+    playfairDisplay1: 'PlayfairDisplay-1',
+    black: 'PlayfairDisplay-Black',
+    blackItalic: 'PlayfairDisplay-BlackItalic',
+    bold: 'PlayfairDisplay-Bold',
+    boldItalic: 'PlayfairDisplay-BoldItalic',
+    extraBold: 'PlayfairDisplay-ExtraBold',
+    extraBoldItalic: 'PlayfairDisplay-ExtraBoldItalic',
+    italic: 'PlayfairDisplay-Italic',
+    md: 'PlayfairDisplay-Medium',
+    mdItalic: 'PlayfairDisplay-MediumItalic',
+    regular: 'PlayfairDisplay-Regular',
+    semiBold: 'PlayfairDisplay-SemiBold',
+    semiBoldItalic: 'PlayfairDisplay-SemiBoldItalic',
+  },
+}

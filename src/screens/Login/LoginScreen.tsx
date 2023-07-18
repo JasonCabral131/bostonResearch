@@ -11,6 +11,7 @@ import {
 import React from 'react';
 import CheckBox from '@react-native-community/checkbox';
 import {useNavigation} from '@react-navigation/native';
+import {LoginImage} from '../../contants/images';
 
 const LoginScreen = () => {
   const navigation = useNavigation();
@@ -19,7 +20,7 @@ const LoginScreen = () => {
       <StatusBar />
       <View style={styles.upperView}>
         <Image
-          source={require('../../assets/loginImage.jpg')}
+          source={LoginImage}
           style={styles.logoStyle}
           resizeMode="contain"
         />

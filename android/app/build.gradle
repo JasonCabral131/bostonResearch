@@ -77,9 +77,7 @@ def enableProguardInReleaseBuilds = false
  * this variant is about 6MiB larger per architecture than default.
  */
 def jscFlavor = 'org.webkit:android-jsc:+'
-project.ext.vectoricons = [
-    iconFontNames: ['Manrope-Bold.ttf', 'Manrope-ExtraBold.ttf', 'Manrope-ExtraLight.ttf', 'Manrope-Light.ttf','Manrope-Medium.ttf', 'Manrope-Regular.tff', 'Manrope-SemiBold.ttf', 'PlayfairDisplay-1.ttf', 'PlayfairDisplay-Black.ttf', 'PlayfairDisplay-BlackItalic.ttf', 'PlayfairDisplay-Bold.ttf', 'PlayfairDisplay-BoldItalic.ttf', 'PlayfairDisplay-ExtraBold.ttf', 'PlayfairDisplay-ExtraBoldItalic.ttf','PlayfairDisplay-Italic.ttf', 'PlayfairDisplay-Medium.ttf', 'PlayfairDisplay-MediumItalic.ttf', 'PlayfairDisplay-Regular.ttf', 'PlayfairDisplay-SemiBold.ttf', 'PlayfairDisplay-SemiBoldItalic.ttf'] 
-]
+
 /**
  * Private function to get the list of Native Architectures you want to build.
  * This reads the value from reactNativeArchitectures in your gradle.properties
